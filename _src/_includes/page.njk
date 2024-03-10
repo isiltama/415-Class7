@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>{{ title }}</title>
+     <link href="/css/style.css" rel="stylesheet">
+</head>
+<body>
+     <header>
+          {% include 'nav.html' %}
+     </header>
+     <main>
+          {{ content | safe }}
+          {% if title == "Contact" %}
+               {% include 'form.html' %}
+          {% endif %}
+     </main>
+     {% if hasjs %}
+          <script src="/js/script.js"></script>
+     {% endif %}
+</body>
+</html>

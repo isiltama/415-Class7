@@ -1,6 +1,20 @@
 body {
      margin: 0;
-     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+     font-family: "Madimi One", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+}
+p {
+          font-family: "Lato", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+}
+h2 {
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
 }
 main {
      margin: 10vw 15vw;

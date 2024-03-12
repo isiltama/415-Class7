@@ -1,5 +1,7 @@
 body {
      margin: 0;
+     text-align: center;
+     background-color: #fee0b6;
 }
 h1 {
      font-family: "Madimi One", sans-serif;
@@ -10,24 +12,57 @@ p {
           font-family: "Lato", sans-serif;
           font-weight: 400;
           font-style: normal;
+          margin: 0;
 }
 h2 {
      font-family: "Lato", sans-serif;
      font-weight: 700;
      font-style: normal;
+     margin: 0;
 }
 main {
      margin: 10vw 15vw;
 }
+header {
+     display: flex;
+     justify-content: center; /* Center the contents horizontally */
+ }
 header ul {
      list-style: none;
      display: flex;
+     font-size: 1.2rem;
 }
 header a {
-     margin-right: 1.5rem;
+     margin-right: 2rem;
      text-decoration: none;
-     color: darkolivegreen;
+     color: black;
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
 }
 header a:hover {
      text-decoration: underline;
 }
+table {
+     width: 100%;
+     border-collapse: collapse;
+ }
+
+ td {
+     padding: 10px;
+     border-bottom: 1px solid #ddd;
+     vertical-align: top; /* Align content to the top */
+     text-align: center; /* Center align text */
+ }
+
+ .item {
+     display: flex;
+     align-items: center;
+     text-align: left; /* Align text to the left */
+ }
+
+ img {
+     max-width: 100px;
+     height: auto;
+     margin-right: 10px; /* Add spacing between image and text */
+ }

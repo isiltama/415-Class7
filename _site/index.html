@@ -8,6 +8,30 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Madimi+One&display=swap" rel="stylesheet">
+     
+     <style>
+          .header {
+          position: relative;
+            height: 500px; /* Adjust height as needed */
+              background-image: url('images/LOTR.jpeg'); /* Path to your image */
+              background-size: 100% auto; /* Set width to 100% and height to auto */
+              background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .header h1 {
+          font-size: 3rem;
+        }
+        .header p {
+          font-size: 1.3rem;
+        }
+     </style>
+
 </head>
 <body>
      <header>
@@ -22,20 +46,13 @@
 
      </header>
      <main>
-          <h1>Isaak's Favourite Movies & TV Shows</h1>
-<p>This is a page that I made with eleventy. Or is it 11ty? I don't know.</p>
-<h2>Pros!</h2>
-<ul>
-<li>fast</li>
-<li>safe</li>
-<li>pretty neat</li>
-</ul>
-<h2>Cons</h2>
-<ul>
-<li>weirdly complicated?</li>
-<li>too many features?</li>
-</ul>
-<p>Git is weird and hard on frozen IMD machines.</p>
+          <div class="header">
+               <div class="text-overlay">
+                   <h1>Isaak's Favourite Movies & TV Shows</h1>
+                   <p>Welcome to My Paradise! Where Movies and TV Shows reign supreme!</p>
+                   <P>Come see what I deem as the best.</P>
+               </div>
+           </div>
 
           
      </main>
